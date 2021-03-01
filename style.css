@@ -1,9 +1,56 @@
 *{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Akaya Kanadaka', cursive;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
     background-color: #add8e6;
+}
+header{
+    text-transform: uppercase;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+main{
+    border: 1px solid black;
+    margin: 100px 10%;
+    height: 600px;
+}
+.row{
+    position: relative;
+    height: 150px;
+    border: 1px solid black;
+}
+.card{
+    position: absolute;
+    height: 150px;
+    content: '';
+
+}
+.description{
+    position: absolute;
+}
+
+.airbaloon{
+    background-image: url('img/noun_air_balloon_3134741.png');
+}
+.bicycle{
+    background-image: url('img/noun_Bicycle_3134821.png');
+}
+.cruiseship{
+    background-image: url('img/noun_Cruise_Ship_3134824.png');
+}
+.submarine{
+    background-image: url('img/noun_Submarine_3134738.png');
+}
+.tractor{
+    background-image: url('img/noun_Tractor_3134797.png');
+}
+.tram{
+    background-image: url('img/noun_Tram_3134750.png');
+}
+.pattern{
+    background-image: url('img/pattern.png');
 }
