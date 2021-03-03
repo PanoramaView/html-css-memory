@@ -19,11 +19,12 @@ main{
 #cheerleader{
     width: 10%;
     position: fixed;
-    top:15px;
-    left:15px;
+    top:6vh;
+    left:6.4vw;
     border: 2px solid rgba(0, 0, 0, 0.445);
     border-radius: 20%;
 }
+
 .row{
     height: 260px;
     margin-bottom: 10px;
@@ -137,4 +138,10 @@ main{
 }
 .tram > .description:before{
     content: 'Tram';
+}
+
+
+/* correzione */
+.scoperto{
+    opacity: 1;
 }
